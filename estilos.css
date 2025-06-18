@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Color de fondo claro */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; /* Forma circular */
+}
+
+h1 {
+    color: #ff69b4; /* Color rosa */
+}
+
+h2 {
+    color: #4682b4; /* Color azul */
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ff69b4; /* Borde rosa */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+a {
+    color: #ff69b4; /* Color de enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
