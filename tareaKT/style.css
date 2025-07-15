@@ -1,0 +1,202 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Montserrat', Arial, sans-serif;
+    background: #fff6fa;
+    color: #4d4d4d;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header */
+.header {
+    background: #ffe0ec; /* pastel rosado */
+    padding: 25px 0 15px 0;
+    text-align: center;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 2px 8px rgba(255,192,203,0.08);
+}
+
+.product-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #e57399;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #f8bbd0;
+    margin-bottom: 10px;
+}
+
+/* Hero */
+.hero {
+    background: #fce4ec; /* pastel rosado claro */
+    border-radius: 20px;
+    margin: 30px 0 20px 0;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(248,187,208,0.08);
+}
+
+.hero img {
+    width: 120px;
+    border-radius: 15px;
+    margin-bottom: 18px;
+    border: 2px solid #b2ebf2;
+}
+
+.hero h2 {
+    color: #ba68c8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #6d4c41;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
+
+.btn {
+    background: #f8bbd0; /* pastel rosado */
+    color: #6d4c41;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 1px 4px rgba(186,104,200,0.08);
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #b2ebf2; /* pastel celeste */
+    color: #e57399;
+}
+
+/* Features */
+.features {
+    background: #fff; /* blanco */
+    border-radius: 15px;
+    padding: 25px 0;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(178,235,242,0.06);
+}
+
+.features h3 {
+    color: #ba68c8;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.features ul {
+    list-style: disc inside;
+    color: #6d4c41;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.features li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+.testimonials {
+    background: #e0f7fa; /* pastel celeste */
+    border-radius: 15px;
+    padding: 25px 0;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(186,104,200,0.06);
+}
+
+.testimonials h3 {
+    color: #e57399;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.testimonial-item {
+    background: #fff;
+    border-radius: 10px;
+    margin: 12px auto;
+    padding: 15px 18px;
+    max-width: 500px;
+    box-shadow: 0 1px 4px rgba(248,187,208,0.08);
+}
+
+.testimonial-item p {
+    font-style: italic;
+    color: #6d4c41;
+    margin-bottom: 6px;
+}
+
+.testimonial-item cite {
+    color: #ba68c8;
+    font-size: 0.98rem;
+}
+
+/* Call to action bottom */
+.call-to-action-bottom {
+    background: #ffe0ec; /* pastel rosado */
+    border-radius: 15px;
+    padding: 25px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.call-to-action-bottom h2 {
+    color: #ba68c8;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 14px;
+}
+
+/* Footer */
+.footer {
+    background: #e0f7fa; /* pastel celeste */
+    color: #6d4c41;
+    padding: 18px 0 10px 0;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .container {
+        width: 98%;
+        padding: 0 5px;
+    }
+    .hero img {
+        width: 90px;
+    }
+    .logo {
+        width: 50px;
+    }
+}
